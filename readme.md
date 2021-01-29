@@ -6,10 +6,14 @@ How to create an express project with css
 
 2. `npm init`
 
-`npm install`
+3. `npm install`
 
-`npx express-generator`
+4. `npx express-generator`
 
-`npx tailwindcss init –full`
+5. `npx tailwindcss init –full`
 
-`include tailwin in your css` 
+6. Include tailwind in your css by adding the following lines of code to your stylesheets/styles.css file
+
+`@tailwind base;
+@tailwind components;
+@tailwind utilities;`
